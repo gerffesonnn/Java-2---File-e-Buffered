@@ -16,7 +16,7 @@ public class main {
 
         try {
 
-            // Cria o arquivo automaticamente
+    
             BufferedWriter bw = new BufferedWriter(
                     new FileWriter("personagens_db.csv"));
 
