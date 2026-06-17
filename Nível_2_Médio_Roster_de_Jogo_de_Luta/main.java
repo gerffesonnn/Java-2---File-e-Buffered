@@ -15,7 +15,6 @@ public class main {
         List<Personagem> personagens = new ArrayList<>();
 
         try {
-
     
             BufferedWriter bw = new BufferedWriter(
                     new FileWriter("personagens_db.csv"));
@@ -34,7 +33,6 @@ public class main {
 
             bw.close();
 
-            // Lê o arquivo
             BufferedReader br = new BufferedReader(
                     new FileReader("personagens_db.csv"));
 
